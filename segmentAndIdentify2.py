@@ -8,7 +8,7 @@ from skimage.segmentation import mark_boundaries
 from skimage.measure import regionprops
 from skimage import graph
 
-image = cv2.imread('test.png')
+image = cv2.imread('./ChartDete/output/area_extracted/PMC2999541___g006_output.jpg')
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
